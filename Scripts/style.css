@@ -41,7 +41,7 @@ body {
     align-items: flex-start;
     gap: 0.3rem;
   }
-
+  
   .name {
     font-family: 'MadeTommyBold', sans-serif;
     font-size: 2rem;
