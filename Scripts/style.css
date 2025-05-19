@@ -231,7 +231,7 @@ body {
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
     white-space: nowrap;
-    flex-shrink: 0; /* Prevent shrinking when overflowing */
+    flex-shrink: 0;
   }
   
   .skills-box {
@@ -239,7 +239,7 @@ body {
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
     white-space: nowrap;
-    flex-shrink: 0; /* Prevent shrinking when overflowing */
+    flex-shrink: 0;
   }
   
   .skills-box img {
@@ -284,7 +284,7 @@ body {
 
   .video-wrapper {
     width: 100%;
-    max-width: 400px; /* or adjust as needed */
+    max-width: 400px;
     aspect-ratio: 16 / 9;
     overflow: hidden;
     border-radius: 10px;
