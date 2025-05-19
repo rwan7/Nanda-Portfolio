@@ -216,7 +216,7 @@ body {
     padding: 1rem;
     scroll-behavior: smooth;
   }
-  
+
   .skills-box-container::-webkit-scrollbar {
     height: 6px;
   }
@@ -224,6 +224,14 @@ body {
   .skills-box-container::-webkit-scrollbar-thumb {
     background-color: #ccc;
     border-radius: 3px;
+  }
+  
+  .education-box {
+    background-color: #1a1a1a;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    white-space: nowrap;
+    flex-shrink: 0; /* Prevent shrinking when overflowing */
   }
   
   .skills-box {
@@ -272,6 +280,22 @@ body {
     animation: typing 4s steps(5) 1s infinite, deleting 4s steps(5) 0s infinite;
     width: 100%;
     white-space: nowrap;
+  }
+
+  .video-wrapper {
+    width: 100%;
+    max-width: 400px; /* or adjust as needed */
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 0 auto 1rem auto;
+  }
+
+  .video-wrapper video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
   }
   
   @keyframes typing {
